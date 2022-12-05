@@ -23,6 +23,10 @@ public class EmployeeBackend {
     public String viewemployee(){
         return "view employee";
     }
+    @GetMapping("/delete")
+    public String deleteemployee(){
+        return "delete employee";
+    }
 
 
 
