@@ -15,11 +15,11 @@ public class EmployeeBackend {
     public String addemployee(){
         return "add employee";
     }
-    @GetMapping("search")
+    @GetMapping("/search")
     public String searchemployee(){
         return "search employee";
     }
-    @GetMapping("view")
+    @GetMapping("/view")
     public String viewemployee(){
         return "view employee";
     }
