@@ -15,6 +15,11 @@ public class EmployeeBackend {
     public String addemployee(){
         return "add employee";
     }
+    @GetMapping("search")
+    public String searchemployee(){
+        return "search employee";
+    }
+
 
 
 
