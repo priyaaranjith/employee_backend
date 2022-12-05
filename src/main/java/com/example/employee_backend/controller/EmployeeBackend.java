@@ -11,6 +11,10 @@ public class EmployeeBackend {
     public String welcomepage(){
         return "welcome";
     }
+    @GetMapping("/add")
+    public String addemployee(){
+        return "add employee";
+    }
 
 
 
