@@ -27,6 +27,11 @@ public class EmployeeBackend {
     public String deleteemployee(){
         return "delete employee";
     }
+    @GetMapping("/edit")
+    public String editemployee(){
+        return "edit employee";
+    }
+
 
 
 
